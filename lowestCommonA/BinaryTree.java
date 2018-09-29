@@ -72,7 +72,7 @@ public class BinaryTree
 	// find lowest common ancestor of two nodes
 	public Node lowestCommonAncestor(Node root, Node node1, Node node2)
 	{
-		if(!containsNode(node1)||!containsNode(node2))
+		if(!containsNode(node1.value)||!containsNode(node2.value))
 		{
 			return null;
 		}
@@ -80,7 +80,7 @@ public class BinaryTree
 		{
 			return null;
 		}
-
+		return null;
 	}
 
 }
