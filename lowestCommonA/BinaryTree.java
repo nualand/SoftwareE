@@ -1,4 +1,3 @@
-
 import java.util.NoSuchElementException;
 
 public class BinaryTree
@@ -98,7 +97,7 @@ public class BinaryTree
 	 }
 
 	public static void main(String[] args) {
-	
+
 	}
 
 }
